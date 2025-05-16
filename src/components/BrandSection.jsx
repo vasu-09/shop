@@ -13,10 +13,10 @@ import brand6 from '../assets/487334792_1175450791260192_3673409991611306083_n.j
 
 
 const useMobile = () => {
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   
     useEffect(() => {
-      const handleResize = () => setIsMobile(window.innerWidth <= 480);
+      const handleResize = () => setIsMobile(window.innerWidth <= 768);
       window.addEventListener('resize', handleResize);
       return () => window.removeEventListener('resize', handleResize);
     }, []);
