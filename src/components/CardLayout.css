@@ -132,6 +132,11 @@
 }
 
 @media (max-width: 768px){
+   .card-layout-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
   .brand-card {
     max-width: 100%;
   }
