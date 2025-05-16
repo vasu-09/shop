@@ -1,0 +1,41 @@
+.hero-gradient {
+  min-height: 90vh;
+  width: 100vw;
+  overflow-x: hidden;
+  padding-top: 80px;
+  background: linear-gradient(to right, #08bee6 0%, #045466 50%, #000000 50%, #540213 50%, #f65174 100%);
+}
+
+.hero-content {
+  min-height: 80vh;
+  padding: 0 15rem;
+}
+
+.asian {
+   max-height: '300px';
+   object-fit: 'cover'; 
+}
+
+.berger{
+    max-height: '220px';
+    object-fit: 'cover';
+}
+
+@media (max-width: 768px) {
+  .hero-gradient {
+    background: linear-gradient(to bottom, #08bee6 0%, #045466 50%, #000000 50%, #540213 50%, #f65174 100%);
+  }
+   .hero-content {
+    padding: 0 1rem; /* Optional: reduce padding on mobile */
+  }
+
+  .asian {
+   max-height: '150px';
+
+}
+
+.berger{
+    max-height: '0px';
+  
+}
+}

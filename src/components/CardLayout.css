@@ -1,0 +1,151 @@
+
+.card-layout-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem 2rem; /* More vertical gap */
+  justify-items: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+
+.brand-card {
+  max-width: 100%;
+  max-width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.brand-card img {
+  max-width: 100%;
+  max-height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.brand-card:hover {
+  transform: translateY(-10px);
+}
+
+
+
+
+.custom-card {
+  max-width: 100%;
+  max-height: 400px;
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.gradient-orange-pink {
+  background: linear-gradient(to right, #b90abd, #d988db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.gradient-orange-blue {
+  background: linear-gradient(to right, #0a92bd, #80d4f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.gradient-orange-red {
+  background: linear-gradient(to right, #bd1f0a, #ff8a7a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.gradient-deep-blue {
+  background: linear-gradient(to right, #031966, #788ccf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.gradient-red-red {
+  background: linear-gradient(to right, #7d0000, #ff2f11);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.gradient-mild-blue {
+  background: linear-gradient(to right, #292c35, #859da5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+@media (max-width: 480px) {
+  .card-layout-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .brand-card {
+    max-width: 100%;
+  }
+
+  .brand-card img {
+    width: 100%;
+    height: auto;
+  }
+  .gradient-orange-pink,
+  .gradient-orange-blue,
+  .gradient-orange-red,
+  .gradient-deep-blue,
+  .gradient-red-red,
+  .gradient-mild-blue {
+    font-size: 16px;
+  }
+  
+}
+
+@media (max-width: 768px){
+  .brand-card {
+    max-width: 100%;
+  }
+
+  .brand-card img {
+    width: 100%;
+    height: auto;
+  }
+  .gradient-orange-pink,
+  .gradient-orange-blue,
+  .gradient-orange-red,
+  .gradient-deep-blue,
+  .gradient-red-red,
+  .gradient-mild-blue {
+    font-size: 20px;
+  }
+}
