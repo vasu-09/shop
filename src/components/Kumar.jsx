@@ -5,7 +5,7 @@ import brand3 from '../assets/hardware/kumar motors/kumar-pumps-18-11-2020-38-21
 import brand4 from '../assets/hardware/kumar motors/monoblock-pumps-1hp-sw-1-lalit-kumar-original-imagg3yy5fj3kpsq.webp';
 import brand5 from '../assets/hardware/kumar motors/sub.jpg';
 
-import brand8 from '../assets/Hardware/whatsapp.jpg';
+import brand8 from '../assets/hardware/whatsapp.jpg';
 
 const Kumar = () => {
   
